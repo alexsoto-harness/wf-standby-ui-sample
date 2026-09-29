@@ -8,3 +8,5 @@ See [FIXTURE.md](./FIXTURE.md) for the object inventory and which objects each i
 const app = require("./src/app");
 console.log(app.describe());
 ```
+
+Status: ready for import comparison.

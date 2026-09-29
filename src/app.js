@@ -5,4 +5,8 @@ function describe() {
   };
 }
 
-module.exports = { describe };
+function deprecatedFlag() {
+  return false;
+}
+
+module.exports = { describe, deprecatedFlag };
